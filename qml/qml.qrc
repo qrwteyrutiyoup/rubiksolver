@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/qml">
+        <file>rubik/Cell.qml</file>
+        <file>rubik/constants.js</file>
+        <file>rubik/Rubik.qml</file>
+        <file>rubik/RubikFace.qml</file>
+        <file>rubik/cellarray.js</file>
+        <file>CubeSetup.qml</file>
+        <file>cubesetup.js</file>
+        <file>CubeSolution.qml</file>
+        <file>SolutionArrow.qml</file>
+        <file>cubesolution.js</file>
+        <file>Button.qml</file>
+        <file>MainWindow.qml</file>
+        <file>main.qml</file>
+        <file>ColorPicker.qml</file>
+        <file>MessageDialog.qml</file>
+    </qresource>
+</RCC>

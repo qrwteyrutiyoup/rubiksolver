@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Name=Rubik Solver
+Exec=/usr/bin/single-instance /opt/rubiksolver/bin/rubiksolver
+Icon=/usr/share/icons/hicolor/80x80/apps/RubikSolver80.png
+X-Window-Icon=
+X-HildonDesk-ShowInToolbar=true
+X-Osso-Type=application/x-executable

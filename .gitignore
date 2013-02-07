@@ -1,0 +1,6 @@
+rubiksolver
+*.o
+moc_*
+qrc_*
+*.swp
+Makefile

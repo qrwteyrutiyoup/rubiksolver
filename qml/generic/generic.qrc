@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/qml">
+        <file>RubikWindow.qml</file>
+        <file>RubikPage.qml</file>
+        <file>platform.js</file>
+    </qresource>
+</RCC>
