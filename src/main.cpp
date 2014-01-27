@@ -1,9 +1,8 @@
-#include <QtGui/QApplication>
-#include <QtGui/QDesktopWidget>
-#include <QtGui/QFontDatabase>
-#include <QtCore/QUrl>
-#include <QtCore/QFile>
-#include <QtCore/QDebug>
+#include <QApplication>
+#include <QDesktopWidget>
+#include <QFontDatabase>
+#include <QUrl>
+#include <QFile>
 #include "mainview.h"
 #include <stdio.h>
 Q_DECL_EXPORT int main(int argc, char *argv[])
@@ -31,7 +30,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     view.showFullScreen();
 #else
-    view.setFixedSize(480, 800);
+    view.setFixedSize(360, 640);
     view.show();
 #endif
 

@@ -4,7 +4,7 @@ TEMPLATE = app
 TARGET = rubiksolver
 VERSION = 0.1
 
-QT += declarative opengl
+QT += declarative
 
 CONFIG += mobility
 MOBILITY += multimedia

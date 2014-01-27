@@ -6,13 +6,16 @@ RubikFaceModel::RubikFaceModel(Cubex *cube, RubikFace face, QObject *parent)
       m_cube(cube),
       m_face(face)
 {
-    QHash<int, QByteArray> roles;
-    roles[ColorIndex] = "colorIndex";
-    setRoleNames(roles);
+    m_roles[ColorIndex] = "colorIndex";
 }
 
 RubikFaceModel::~RubikFaceModel()
 {
+}
+
+QHash<int,QByteArray> RubikFaceModel::roleNames() const
+{
+    return m_roles;
 }
 
 int RubikFaceModel::rowCount(const QModelIndex &parent) const

@@ -1,8 +1,9 @@
 #ifndef RUBIKFACEMODEL_H
 #define RUBIKFACEMODEL_H
 
-#include <QtCore/QObject>
-#include <QtCore/QAbstractListModel>
+#include <QObject>
+#include <QHash>
+#include <QAbstractListModel>
 
 #include "solver/cubex.h"
 
@@ -38,10 +39,12 @@ public:
     void notifyLayoutChanged();
 
     int *getSticker(int) const;
+    QHash<int,QByteArray> roleNames() const;
 
 private:
     Cubex *m_cube;
     RubikFace m_face;
+    QHash<int,QByteArray> m_roles;
 };
 
 

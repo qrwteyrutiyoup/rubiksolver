@@ -35,7 +35,7 @@ Item {
     Image {
         id: bgCube
         smooth: true
-        source: ":/img/bg-cube.png"
+        source: "qrc:/img/bg-cube.png"
         anchors.centerIn: parent
         z: 1
     }
